@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow&family=Roboto:wght@300&display=swap');
+
+header {
+    width: 100%; 
+    height: 100px;
+    background: #B4FFA8;
+}
+
+nav {
+    width: 100%;
+}
+
+.btn__button{
+    padding-top: 40px; /* відступ зверху */
+}
+
+li {
+    float: right; /* вирівнюємо блок по горизонталі по правому боку*/
+    font-size: 18px;
+    color: black; 
+}
+
+a{
+    padding: 10px;
+    background-color: rgb(233, 177, 110);
+    margin: 10px; /*відступ між кнопками*/
+}
+
+.content{
+    width: 90%;
+    margin: 0 auto; /* блок по середині*/
+}
+
+.logo_name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    color: #c65708;
+}
+.content__img-img{
+    width: 300px;
+}
+.content__prices{
+    font-family: 'Oswald', sans-serif;
+}
+
+.content__img{ 
+    text-align: center; /* блок з малюнками ставимо по-середині. Чому? Тег img - рядковий*/
+
+}
+footer {
+    width: 100%;
+    height: 90px;
+    background: #389D27;
+}
+
+.text-text,
+.item-footer{
+    font-family: 'Roboto', sans-serif;
+}
+.item-footer{
+    text-align: center;
+    padding: 30px;
+    color: rgb(252, 252, 252);
+}
+
+a:hover{
+color: rgb(252, 252, 253);
+background: #389D27;
+}
+
+
+/* АНІМАЦІЯ */
+
+img:hover{
+    transform: scale(1.1); /* збільшення картинки*/
+    transition: transform 0.25s;
+    opacity: 60%;
+    outline: 5px solid #9E8463; /* Властивість outline задає зовнішній контур навколо елементу. Зовнішній контур не впливає на розміри елемента, на відмінну від звичайних кордонів (властивість border).*/
+    outline-offset: 5px; /* Властивість outline-offset встановлює відстань між контуром та кордоном елемента (властивість border).*/
+}
+
+.name{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #db4572;
+    display: inline-block;
+    position: relative;
+    background: url(../img/cat13.jpg) 50% no-repeat;фонове зображення 
+}
+.item{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: azure;
+    font-family: 'Lobster', sans-serif;   
+    font-size: 1.2em;
+}
+.cat1{
+    background: url(../img/cat12-300.jpg);
+}
